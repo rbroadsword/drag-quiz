@@ -18,7 +18,8 @@ body {
 }
 
 .quiz {
-  max-width: 40vw;
+  min-width: 45vw;
+  border: black solid .1rem;
 }
 
 .quiz div {
@@ -29,4 +30,13 @@ body {
 button {
   display: block;
   margin: auto;
+}
+
+.bob img {
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  display: flex;
 }
