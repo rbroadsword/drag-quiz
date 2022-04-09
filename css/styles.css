@@ -9,3 +9,10 @@ body {
   background: radial-gradient(circle, rgba(239,242,58,1) 0%, rgba(241,90,229,1) 100%);
   font-family: 'Poppins', sans-serif;
 }
+
+.intro {
+  min-height: 50vh;
+  text-align: center;
+  padding: 5rem;
+  margin: 3rem;
+}
