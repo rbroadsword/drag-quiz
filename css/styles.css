@@ -79,15 +79,26 @@ button {
 }
 
 /* Results*/
+.my-result {
+  display: flex;
+}
 .result {
   min-width: 50vw;
 }
-
-#lang-1, #lang-2, #lang-3, #lang-4 {
-  display: flex;
-}
-
 .icon {
   border-radius: .5rem;
   border: black .5rem solid;
+}
+/*
+#lang-1 {
+  display: none;
+}
+#lang-2 {
+  display: none;
+}
+#lang-3 {
+  display: none;
+}
+#lang-4 {
+  display: none;
 }
