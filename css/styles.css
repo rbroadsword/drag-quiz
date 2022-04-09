@@ -43,11 +43,11 @@ hr {
   padding: .5rem;
 }
 
-.dragName label {
+.drag-name label {
   font-size: 2rem;
 }
 
-.dragName input {
+.drag-name input {
   height: 3rem;
   width: 20rem;
 }
@@ -89,7 +89,7 @@ button {
   border-radius: .5rem;
   border: black .5rem solid;
 }
-/*
+
 #lang-1 {
   display: none;
 }

@@ -9,5 +9,23 @@ $(document).ready(function() {
     const dragMovie = parseInt($("#dragMovie").val());
     const result = dragMom + dragAesthetic + trademark + competition + dragMovie;
     console.log(result);
+
+    if(result <= 5) {
+      $(".dragName").text(dragName);
+      $("#lang-1").toggle();
+      $(".main").toggle();
+    } else if (result > 5 && result <= 15) {
+      $(".dragName").text(dragName);
+      $("#lang-2").toggle();
+      $(".main").toggle();
+    }else if (result > 15 && result <= 25) {
+      $(".dragName").text(dragName);
+      $("#lang-3").toggle();
+      $(".main").toggle();
+    }else if (result > 25) {
+      $(".dragName").text(dragName);
+      $("#lang-4").toggle();
+      $(".main").toggle();
+    }
   })
 })
