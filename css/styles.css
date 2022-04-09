@@ -79,6 +79,12 @@ button {
   padding-bottom: 10rem;
 }
 
+.support {
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 1px 2px 10px rgba(239,242,58,1);
+}
+
 /* Results*/
 .my-result {
   display: flex;
