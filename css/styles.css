@@ -25,9 +25,12 @@ body {
   font-size: 1.5rem;
 }
 
+hr {
+  border-top: .25rem solid rgba(241,90,229,1);
+}
+
 .quiz {
   min-width: 45vw;
-  border: black solid .1rem;
 }
 
 .quiz div {
@@ -52,8 +55,20 @@ button {
 .bob img {
   width: 100%;
   height: auto;
+  margin: 2rem;
+  border-radius: 1rem;
+  border: black .25rem solid;
+}
+
+.silky {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 5rem;
 }
 
 .main {
   display: flex;
+  padding-bottom: 10rem;
 }
