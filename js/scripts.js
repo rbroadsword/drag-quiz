@@ -27,5 +27,33 @@ $(document).ready(function() {
       $("#lang-4").toggle();
       $(".main").toggle();
     }
-  })
-})
+  });
+  $(".bunny").click(function(){
+    $("#lang-1").hide();
+    $("#lang-2").hide();
+    $("#lang-3").hide();
+    $("#lang-4").hide();
+    $(".main").show();
+  });
+  $(".jackie").click(function(){
+    $("#lang-1").hide();
+    $("#lang-2").hide();
+    $("#lang-3").hide();
+    $("#lang-4").hide();
+    $(".main").show();
+  });
+  $(".coco").click(function(){
+    $("#lang-1").hide();
+    $("#lang-2").hide();
+    $("#lang-3").hide();
+    $("#lang-4").hide();
+    $(".main").show();
+  });
+  $(".divine").click(function(){
+    $("#lang-1").hide();
+    $("#lang-2").hide();
+    $("#lang-3").hide();
+    $("#lang-4").hide();
+    $(".main").show();
+  });
+});
