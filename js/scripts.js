@@ -2,16 +2,12 @@ $(document).ready(function() {
   $("#dragForm").submit(function(event) {
     event.preventDefault();
     const dragName = $("input#dragName").val();
-    console.log(dragName);
     const dragMom = parseInt($("#dragMom").val());
-    console.log(dragMom);
     const dragAesthetic = parseInt($("#dragAesthetic").val());
-    console.log(dragAesthetic);
-    const trademark = $("input:radio[name=trademark]:checked").val();
-    console.log(trademark);
-    const competition = $("input:radio[name=competition]:checked").val();
-    console.log(competition);
+    const trademark = parseInt($("input:radio[name=trademark]:checked").val());
+    const competition = parseInt($("input:radio[name=competition]:checked").val());
     const dragMovie = parseInt($("#dragMovie").val());
-    console.log(dragMovie);
+    const result = dragMom + dragAesthetic + trademark + competition + dragMovie;
+    console.log(result);
   })
 })
