@@ -16,3 +16,12 @@ body {
   padding: 5rem;
   margin: 3rem;
 }
+
+.quiz {
+  max-width: 40vw;
+}
+
+.quiz div {
+  margin: .5rem;
+  padding: .5rem;
+}
