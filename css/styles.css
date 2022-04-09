@@ -17,6 +17,14 @@ body {
   margin: 3rem;
 }
 
+.intro h1 {
+  font-size: 5rem;
+}
+
+.intro p {
+  font-size: 1.5rem;
+}
+
 .quiz {
   min-width: 45vw;
   border: black solid .1rem;
@@ -25,6 +33,15 @@ body {
 .quiz div {
   margin: .5rem;
   padding: .5rem;
+}
+
+.dragName label {
+  font-size: 2rem;
+}
+
+.dragName input {
+  height: 3rem;
+  width: 20rem;
 }
 
 button {
