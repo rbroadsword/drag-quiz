@@ -8,7 +8,6 @@ $(document).ready(function() {
     const competition = parseInt($("input:radio[name=competition]:checked").val());
     const dragMovie = parseInt($("#dragMovie").val());
     const result = dragMom + dragAesthetic + trademark + competition + dragMovie;
-    console.log(result);
 
     if(result <= 5) {
       $(".dragName").text(dragName);
