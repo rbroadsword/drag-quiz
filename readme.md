@@ -13,7 +13,7 @@
 
 ## Description 
 
-A quiz that asks user questions about their drag persona and returns a programming language based on their answers with four different outcomes possible.
+A quiz that asks user questions about their drag persona/preferences and returns a programming language based on their answers with four different outcomes possible.
 
 ## Setup/Installation Requirements
 
